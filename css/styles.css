@@ -8,6 +8,11 @@ body {
   font-family: "Roboto", sans-serif;
   color: black;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .box-topline {
   width: 1600px;
   height: 80px;
@@ -48,6 +53,9 @@ body {
   line-height: 1.173;
   color: rgba(33, 150, 243, 1);
 }
+.main-link:focus {
+  color: rgba(33, 150, 243, 1);
+}
 .navigations {
   list-style: none;
   font-weight: 500;
@@ -56,6 +64,9 @@ body {
   color: rgba(33, 33, 33, 1);
 }
 .navigations:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.navigations:focus {
   color: rgba(33, 150, 243, 1);
 }
 .header-hidden {
@@ -161,12 +172,18 @@ body {
 .links-footer:hover {
   color: rgba(33, 150, 243, 1);
 }
+.links-footer:focus {
+  color: rgba(33, 150, 243, 1);
+}
 .link-maps {
   font-size: 14px;
   line-height: 1.714;
   color: rgba(255, 255, 255, 1);
 }
 .link-maps:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.link-maps:focus {
   color: rgba(33, 150, 243, 1);
 }
 .filter {
