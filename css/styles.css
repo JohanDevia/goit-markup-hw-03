@@ -10,9 +10,8 @@ body {
 }
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main-link {
@@ -117,8 +116,10 @@ body {
   text-align: center;
 }
 .teams {
-  list-style: none;
   background-color: rgba(245, 244, 250, 1);
+}
+.team {
+  list-style: none;
 }
 .header-team {
   font-weight: 500;
@@ -198,20 +199,20 @@ body {
   background-color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .box-logo {
   width: 145px;
-  height: 31px;
-  padding-top: 24px;
+  padding-top: 25px;
   padding-left: 215px;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
   display: flex;
 }
 .box-nav {
   width: 281px;
   height: 16px;
   padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 93px;
   display: flex;
   justify-content: space-between;
@@ -219,20 +220,19 @@ body {
   gap: 50px;
 }
 .box-links {
-  height: 16px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 344px;
-  gap: 50px;
+  padding-right: 219px;
 }
 .box-title {
   width: 1600px;
   height: 600px;
-  border-top: 80px;
-  border-left: 4px;
+  margin-left: -4px;
   padding: 200px 452px 280px 452px;
-  margin: 0px;
   box-sizing: border-box;
   background-color: rgba(47, 48, 58, 1);
   display: flex;
@@ -243,4 +243,61 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.box-skills {
+  display: flex;
+  box-sizing: border-box;
+  width: 1600px;
+  height: 122px;
+  padding: 95px 215px 94px 215px;
+  gap: 30px;
+  column-gap: 10px;
+}
+.box-hb {
+  padding-top: 94px;
+  padding-left: 620px;
+}
+.box-business {
+  display: flex;
+  box-sizing: border-box;
+  width: 1600px;
+  height: 425px;
+  padding: 94px 212px 94px 215px;
+  gap: 30px;
+}
+.box-teams {
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  height: 648px;
+  box-sizing: border-box;
+  margin: 0%;
+}
+.box-ot {
+  padding-top: 94px;
+  margin: 0%;
+}
+.box-team {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 208px;
+  padding-right: 215px;
+  padding-bottom: 94px;
+  gap: 37px;
+  margin: 0%;
+}
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  height: 252px;
+  margin: 0%;
+}
+.box-logo-footer {
+  padding: 60px 1240px 9px 215px;
+  margin: 0%;
+}
+.box-link-footer {
+  padding: 0px 1154px 9px 215px;
+  margin: 0%;
 }
