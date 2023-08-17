@@ -11,38 +11,42 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="topline container">
-      <a class="main-link box-logo" href="./index.html">webstudio</a>
-      <nav>
+    <header>
+      <nav class="topline container">
+        <a class="main-link box-logo" href="./index.html">webstudio</a>
         <ul class="navigations box-nav">
           <li><a class="navigations" href="./index.html">Estudio</a></li>
-          <li><a class="navigations" href="./portfolio.html">Portafolio</a></li>
+          <li>
+            <a class="navigations" href="./portfolio.html">Portafolio</a>
+          </li>
           <li><a class="navigations" href="#">Contacto</a></li>
         </ul>
-      </nav>
-      <ul class="links box-links">
-        <li>
-          <a class="navigations" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="navigations" href="tel:+525555296000">+52 55 5529 6000</a>
-        </li>
-      </ul>
-    </header>
-    <main id="main_hero">
-      <section class="main-header box-title container">
-        <ul class="title">
+        <ul class="links box-links">
           <li>
-            <h1 class="box-h1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+            <a class="navigations" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <button class="button-contact box-bc" type="button">
-              Solicite nuestro servicio
-            </button>
+            <a class="navigations" href="tel:+525555296000">+52 55 5529 6000</a>
           </li>
         </ul>
+      </nav>
+    </header>
+    <main id="main_hero">
+      <section class="main-header box-title">
+        <div class="container">
+          <ul class="list-title">
+            <li>
+              <h1 class="box-h1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+            </li>
+            <li>
+              <button class="button-contact box-bc" type="button">
+                Solicite nuestro servicio
+              </button>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="main_skills">
         <div class="container">
@@ -107,74 +111,78 @@
           </ul>
         </div>
       </section>
-      <section class="teams box-teams container">
-        <h3 class="header-ourteam box-ot">Nuestro Equipo</h3>
-        <ul class="team box-team">
-          <li>
-            <img
-              src="images/images-hw-1/fotografiaandrescubo.jpg"
-              alt="Andres  Cubo Diseñador de productos"
-              width="270"
-            />
-            <h3 class="header-team">Andrés Cubo</h3>
-            <p class="text-team">Diseñador de Productos</p>
-          </li>
-          <li>
-            <img
-              src="images/images-hw-1/fotografiacarlapalacios.jpg"
-              alt="Carla Palacios Desarrolladora Frontend"
-              width="270"
-            />
-            <h3 class="header-team">Carla Palacios</h3>
-            <p class="text-team">Desarrolladora Frontend</p>
-          </li>
-          <li>
-            <img
-              src="images/images-hw-1/fotografiamariodorado.jpg"
-              alt="mario Dorado Marketing"
-              width="270"
-            />
-            <h3 class="header-team">Mario Dorado</h3>
-            <p class="text-team">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/images-hw-1/fotografiapablomijangos.jpg"
-              alt="Pablo Mijangos Diseñador IU"
-              width="270"
-            />
-            <h3 class="header-team">Pablo Mijangos</h3>
-            <p class="text-team">Diseñador IU</p>
-          </li>
-        </ul>
+      <section class="teams box-teams">
+        <div class="container">
+          <h3 class="header-ourteam box-ot">Nuestro Equipo</h3>
+          <ul class="team box-team">
+            <li>
+              <img
+                src="images/images-hw-1/fotografiaandrescubo.jpg"
+                alt="Andres  Cubo Diseñador de productos"
+                width="270"
+              />
+              <h3 class="header-team">Andrés Cubo</h3>
+              <p class="text-team">Diseñador de Productos</p>
+            </li>
+            <li>
+              <img
+                src="images/images-hw-1/fotografiacarlapalacios.jpg"
+                alt="Carla Palacios Desarrolladora Frontend"
+                width="270"
+              />
+              <h3 class="header-team">Carla Palacios</h3>
+              <p class="text-team">Desarrolladora Frontend</p>
+            </li>
+            <li>
+              <img
+                src="images/images-hw-1/fotografiamariodorado.jpg"
+                alt="mario Dorado Marketing"
+                width="270"
+              />
+              <h3 class="header-team">Mario Dorado</h3>
+              <p class="text-team">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="images/images-hw-1/fotografiapablomijangos.jpg"
+                alt="Pablo Mijangos Diseñador IU"
+                width="270"
+              />
+              <h3 class="header-team">Pablo Mijangos</h3>
+              <p class="text-team">Diseñador IU</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer box-footer container">
-      <a class="main-link box-logo-footer" href="./index.html">WebStudio</a>
-      <address>
-        <ul class="links-footer box-link-footer">
-          <li>
-            <a
-              class="link-maps"
-              href="https://goo.gl/maps/MqcLZkt5R4HPUiu16"
-              target="_blank"
-            >
-              Calz. Ticomán 500, Ciudad de <br />
-              México, CDMX, México.</a
-            >
-          </li>
-          <li>
-            <a class="links-footer" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="links-footer" href="tel:+525555296000"
-              >+52 55 5529 6000</a
-            >
-          </li>
-        </ul>
-      </address>
+    <footer class="footer box-footer">
+      <div class="container">
+        <a class="main-link box-logo-footer" href="./index.html">WebStudio</a>
+        <address>
+          <ul class="links-footer box-link-footer">
+            <li>
+              <a
+                class="link-maps"
+                href="https://goo.gl/maps/MqcLZkt5R4HPUiu16"
+                target="_blank"
+              >
+                Calz. Ticomán 500, Ciudad de <br />
+                México, CDMX, México.</a
+              >
+            </li>
+            <li>
+              <a class="links-footer" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="links-footer" href="tel:+525555296000"
+                >+52 55 5529 6000</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
