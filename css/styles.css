@@ -295,13 +295,13 @@ body {
 .box-footer {
   display: flex;
   flex-direction: column;
+  padding: 60px 0;
 }
 .box-logo-footer {
-  margin: 60px 0px 9px 0px;
+  margin: 0px 0px 9px 0px;
 }
 .box-link-footer {
-  padding: 0px 0px 60px 0px;
-  margin: 0%;
+  padding: 0;
 }
 .box-portfolio {
   margin: 0px 0px 82px 0px;
