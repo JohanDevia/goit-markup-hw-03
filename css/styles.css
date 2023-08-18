@@ -252,8 +252,6 @@ body {
   display: flex;
   margin: 95px 0px 0px;
   column-gap: 30px;
-  align-items: center;
-  justify-content: center;
   padding: 0;
 }
 .box-atention {
